@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="time">
+      <div class="circle hours-circle" style="--color: #ff2972">
+        <div class="time-display">
+          <span id="hours" class="number">00</span>
+          <span class="label">hours</span>
+        </div>
+      </div>
+      <div class="circle minutes-circle" style="--color: #fee800">
+        <div class="time-display">
+          <span id="minutes" class="number">00</span>
+          <span class="label">minutes</span>
+        </div>
+      </div>
+      <div class="circle seconds-circle" style="--color: #04fc43">
+        <div class="time-display">
+          <span id="seconds" class="number">00</span>
+          <span class="label">seconds</span>
+        </div>
+      </div>
+    </div>
+    <div id="date"></div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
